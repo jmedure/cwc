@@ -1,7 +1,5 @@
 import { Inter } from 'next/font/google';
-// import { useTheme } from 'next-themes';
 import Head from 'next/head';
-// import { useEffect } from 'react';
 import ThemeChanger from '../components/ThemeChanger';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -9,19 +7,19 @@ const inter = Inter({ subsets: ['latin'] });
 export default function Home() {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>CREATE WITH CARE</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="Create with Care" key="title" />
-      </Head>
+      </Head> */}
       <main
         className={`flex min-h-screen flex-col items-center justify-between px-4 py-8 sm:p-24 ${inter.className}`}
       >
         <div className="z-10 max-w-[98%] sm:w-full sm:max-w-xl items-center justify-between font-mono font-thin text-sm lg:flex">
           <div className="flex-col space-y-16 w-full">
             <div className="flex justify-between w-full items-center">
-              <p className="uppercase">Create with Care</p>
+              <p className="uppercase">Create w/ Care</p>
               <div>
                 <ThemeChanger />
               </div>
