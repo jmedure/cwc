@@ -1,21 +1,9 @@
-import { Inter } from 'next/font/google';
-import Head from 'next/head';
 import ThemeChanger from '../components/ThemeChanger';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
     <>
-      {/* <Head>
-        <title>CREATE WITH CARE</title>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:title" content="Create with Care" key="title" />
-      </Head> */}
-      <main
-        className={`flex min-h-screen flex-col items-center justify-between px-4 py-8 sm:p-24 ${inter.className}`}
-      >
+      <main className="flex min-h-screen flex-col items-center justify-between px-4 py-8 sm:p-24">
         <div className="z-10 max-w-[98%] sm:w-full sm:max-w-xl items-center justify-between font-mono font-thin text-sm lg:flex">
           <div className="flex-col space-y-16 w-full">
             <div className="flex justify-between w-full items-center">
@@ -41,15 +29,15 @@ export default function Home() {
               </p>
               <p>
                 It is much harder to find the truth within oneself than it is to
-                set up a drop shipping store. It is much better to live in a
+                set up a drop-shipping store. It is much better to live in a
                 world where we connect to the things we consume.
               </p>
-              <p>We are all both makers and consumers.</p>
+              {/* <p>We are all both makers and consumers.</p> */}
               <p>
-                Our environment consists of a surplus options made both, with
-                and without care. It is hard for the end-user to make good
-                decisions about what to consume. It is much easier to tell when
-                something you’ve made doesn’t meet the mark.
+                Our environment consists of a surplus options made both, w/ and
+                w/o care. It is hard for the end-user to make good decisions
+                about what to consume. It is much easier to tell when something
+                you’ve made doesn’t meet the mark.
               </p>
               <p>
                 Thus, the impetus is on makers to create with care every single
@@ -58,7 +46,9 @@ export default function Home() {
               <p>
                 If all makers create with care every time there is only care to
                 consume. To make in this way is a noble act.
-                <i> In order to fill a world with care we create with care.</i>
+              </p>
+              <p className="pt-8">
+                <i> In order to fill a world with care we create w/ care.</i>
               </p>
             </div>
           </div>
