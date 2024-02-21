@@ -20,11 +20,11 @@ export default function Home() {
               <p>Good in = good out. Bad in = bad out.</p>
               <p>
                 For instance, a maker optimizing for money is likely to end up
-                with a product that promotes very little response from the end
-                user.
+                with a product that promotes little emotional response from the
+                end user.
               </p>
               <p>
-                A screenwriter optimizing for the truth within themselves could
+                A screenwriter optimizing for the truth within themselves can
                 make the movie-goer cry.
               </p>
               <p>
@@ -32,7 +32,6 @@ export default function Home() {
                 set up a drop-shipping store. It is much better to live in a
                 world where we connect to the things we consume.
               </p>
-              {/* <p>We are all both makers and consumers.</p> */}
               <p>
                 Our environment consists of a surplus options made both, w/ and
                 w/o care. It is hard for the end-user to make good decisions
@@ -40,7 +39,7 @@ export default function Home() {
                 you’ve made doesn’t meet the mark.
               </p>
               <p>
-                Thus, the impetus is on makers to create with care every single
+                Thus, the onus is on makers to create with care every single
                 time.
               </p>
               <p>
