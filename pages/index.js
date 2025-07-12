@@ -29,25 +29,21 @@ export default function Home() {
               </p>
               <p>
                 It is much harder to find the truth within oneself than it is to
-                set up a drop-shipping store. It is much better to live in a
-                world where we connect to the things we consume.
+                set up a drop-shipping store. It is much more fulfilling to
+                connect to the things we consume.
               </p>
               <p>
-                Our environment consists of a surplus options made both, w/ and
-                w/o care. It is hard for the end-user to make good decisions
-                about what to consume. It is much easier to tell when something
-                you’ve made doesn’t meet the mark.
+                As consumers, we are overwhelmed by choice. It is hard to make
+                good decisions about what to consume. It is much easier to tell
+                when something you’ve made doesn’t meet the mark.
               </p>
+              <p>Thus, the onus is on makers to create with care every time.</p>
               <p>
-                Thus, the onus is on makers to create with care every single
-                time.
-              </p>
-              <p>
-                If all makers create with care every time there is only care to
+                If all makers create with care every time, there is only care to
                 consume. To make in this way is a noble act.
               </p>
               <p className="pt-8">
-                <i> In order to fill a world with care we create w/ care.</i>
+                <i>To fill a world with care we must create w/ care.</i>
               </p>
             </div>
           </div>
